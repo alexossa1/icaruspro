@@ -1,0 +1,234 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #0d0d0d;
+    margin-top: 30px
+}
+
+@media (min-width:992px) {
+    button {
+        margin-top: 15px;
+        margin-bottom: 15px
+    }
+    form {
+        margin-bottom: 0
+    }
+    .qr-page {
+        padding-top: 10%!important
+    }
+}
+
+@media (max-width:576px) {
+    .img-sm-height {
+        height: 25px!important
+    }
+    .img-footer {
+        width: 50%!important
+    }
+    .footer {
+        height: 280px!important
+    }
+    .footer span {
+        height: 130px
+    }
+    .logo-servisel {
+        margin-top: 30px!important
+    }
+}
+
+body {
+    /*
+    background-color: #ffffff;
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    font-size: 14px*/
+    background-image: url('/./images/Icarus-Cloud-Dashboard.png');
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* This is what makes the background image rescale based on the container's size */
+    background-size: cover;
+    background-color: #ffffff;
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    font-size: 14px
+}
+
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgb(85, 84, 84);
+    margin-top: 25px;
+    margin-bottom: 16px
+}
+
+h2 {
+    color: rgb(255, 255, 255)
+}
+
+.form-group,
+h2,
+label {
+    margin: 0
+}
+
+.card-header,
+button {
+    background-color: #69aceb!important;
+    border-color: #0d0d0d!important;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1em;
+    box-shadow: 0 10px 30px 0 rgba(95, 186, 233, .4);
+    border-radius: 5px 5px 5px 5px;
+    transition: all .3s ease-in-out
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 40px!important;
+    width: 250px
+}
+
+form {
+    margin-bottom: 15px
+}
+
+.card-body {
+    padding: 10px 0
+}
+
+.card {
+    color: #000000
+}
+
+.form-check {
+    text-align: left
+}
+
+.input-text {
+    background-color: #ffffff;
+    border: #0d0d0d;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px 10px 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    transition: all .5s ease-in-out;
+    border-radius: 5px 5px 5px 5px
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #000000
+}
+
+input[type=text]:placeholder {
+    color: #0d0d0d
+}
+
+input[type=number]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #050505
+}
+
+input[type=number]:placeholder {
+    color: #fff
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.img-footer {
+    max-width: 250px;
+    width: 100%
+}
+
+.logo-tecondor {
+    margin-top: 20px
+}
+
+.logo-vanguard {
+    position: relative;
+    margin-top: 23px
+}
+
+.logo-servisel {
+    margin-top: 40px
+}
+
+.group1 .form-check {
+    text-align: left;
+    margin: 5px 30px
+}
+
+.group2 .form-check {
+    text-align: left;
+    margin: 5px 5px 5px 20px
+}
+
+.group3 .form-check {
+    text-align: center;
+    margin: 0 0 0 12px
+}
+
+.form-check-label {
+    margin-left: 10px
+}
+
+.form-check-input {
+    transform: scale(2);
+    margin-top: 4px
+}
+
+.qr-page {
+    padding-top: 20%;
+    padding-bottom: 20px
+}
+
+.qr-page button {
+    margin-top: 35px
+}
+
+.icarus-title {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.icarus-title img {
+    /*para modificar el size del logo*/
+    height: 150px
+}
+
+.footer {
+    background-color: #fff;
+    height: 150px;
+    text-align: center
+}
+
+.footer .row {
+    margin-right: 0!important;
+    margin-left: 0!important
+}
+
+span {
+    padding-top: 15px
+}
